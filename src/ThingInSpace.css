@@ -1,0 +1,143 @@
+body {
+  background-image: url('./assets/galaxy.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.header {
+  position: absolute; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 100;
+  font-family: 'Workbench', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  white-space: nowrap;
+}
+
+.header p {
+  display: inline; 
+  font-size: 14px;
+  margin-left: 0px; 
+  vertical-align: middle;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 25%;
+  margin-left: 0;
+  margin-right: auto;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  width: 150px;
+
+}
+
+.footer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: right;
+}
+
+.app {
+  display: flex;
+  flex-direction: row; 
+  min-width: 800px; 
+  position: relative;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 720px;  
+  height: 720px; 
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.game img {
+  width: 90px;  
+  height: 90px; 
+  outline: none;
+} 
+
+.scores-container {
+  min-height: 200px;
+  width: 200px; 
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.score {
+  font-family: 'Workbench', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.score p {
+  margin-top: 0;
+  font-size: 14pt;
+}
+
+.startgame {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-family: 'Workbench', sans-serif;
+  font-size: 60pt;
+}
+
+.gameOver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  font-family: 'Workbench', sans-serif;
+  font-size: 60pt;
+  width: 100%;
+  color: red;
+}
+
+.startgame-button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF; 
+  font-family: 'Workbench', sans-serif;
+  font-size: 60pt;
+  cursor: pointer; 
+  outline: none; 
+}
+
+.startgame-button:hover {
+  color: #BBBBBB; 
+}
