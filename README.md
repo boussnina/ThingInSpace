@@ -2,6 +2,8 @@
 
 A small reflex-based browser game built with React, where you have to close portals before *The Thing* (a loose nod to Dr. Adams) blasts you.
 
+I made all the images, music and sound effects myself.
+
 ## 🎮 What it is
 
 Portals open faster and faster, and your job is to click and close them before *The Thing* charges up and fires. It’s a test of reaction time and focus — made as a warm-up tool before jumping into video games.
