@@ -1,6 +1,6 @@
 # Thing in Space 🚀
 
-A small reflex-based browser game built with React, where you have to close portals before *The Thing* (a loose nod to Dr. Adams) blasts you.
+A small reflex-based browser game built with React, where you have to close portals before *The Thing* (a loose nod to The Addams Family) blasts you.
 
 I made all the images, music and sound effects myself.
 
