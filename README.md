@@ -12,10 +12,8 @@ I wanted a fun and quick game to sharpen my reflexes — something fast-paced an
 
 ## 🛠️ Tech stack
 
-- React (with Vite)
-- JavaScript
+- React
 - Tailwind CSS
-- useEffect, setTimeout, and basic state management
 
 ---
 
